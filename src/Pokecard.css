@@ -1,7 +1,7 @@
 .Pokecard{
-    width: 200px;
+    width: 250px;
     background-color: #f7d9c4;
-    border-radius: 12%;
+    border-radius: 30px;
     margin: 80px;
 }
 .Pokecard:hover{
@@ -12,5 +12,9 @@
     box-shadow: 4px 2px 28px -1px #ff7aa2;
     transform: translateY(-0.25em);
     transform: scale(1.09);
+    transition: all .5s;
     cursor: pointer;
+}
+.Pokecard-img{
+    scale: 0.8;
 }
